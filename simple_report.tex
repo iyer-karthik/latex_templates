@@ -1,0 +1,61 @@
+
+\documentclass{article}
+\title{My fancy title}
+\author{Name 1, Name 2}
+\date{%
+	$^1$name\_1\_email \\%
+	$^2$name\_2\_email\\[2ex]%
+	\today
+}
+%\KOMAoptions{twoside=false}
+\usepackage{amsmath}
+  \usepackage{paralist}
+  \usepackage{graphics} %% add this and next lines if pictures should be in esp format
+  \usepackage{epsfig} %For pictures: screened artwork should be set up with an 85 or 100 line screen
+\usepackage{graphicx}  
+\usepackage{epstopdf}%This is to transfer .eps figure to .pdf figure; please compile your paper using PDFLeTex or PDFTeXify.
+\usepackage{amssymb}
+
+
+
+
+ \usepackage[colorlinks=true]{hyperref}
+\hypersetup{urlcolor=blue, citecolor=red}
+
+  \textheight=8.2 true in
+   \textwidth=5.0 true in
+    \topmargin 30pt
+     \setcounter{page}{1}
+
+%=================================
+% pre-defined theorem environments
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem*{remark}{Remark}
+\newtheorem*{assumption}{Assumption}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\eps}[1]{{#1}_{\varepsilon}}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+%\newpage
+\bigskip
+
+\begin{abstract}
+Abstract goes here
+\end{abstract}
+
+%The title of your section 1
+\section{Name of section}
+Some text
+\subsection{Name of sub-section}
+Some more text
+\section{Name of section 2}
+Even more text
+\end{document}
