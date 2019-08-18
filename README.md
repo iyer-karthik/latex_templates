@@ -1,2 +1,2 @@
-# latex_templates
-LaTeX templates 
+# LaTex Templates
+LaTeX templates for different tasks
